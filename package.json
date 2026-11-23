@@ -1,0 +1,28 @@
+{
+  "name": "css-visual-effects-learning",
+  "version": "0.1.0",
+  "description": "Interactive learning platform for CSS/JS visual effects with live preview, gamified progress, and shareable creations",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "docs": "vitepress build docs",
+    "dev": "vitepress dev docs"
+  },
+  "keywords": ["css", "javascript", "visual-effects", "learning", "interactive", "education"],
+  "author": "zkzWilliamzhou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "git": "https://github.com/zkzWilliamzhou/css-visual-effects-learning.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
